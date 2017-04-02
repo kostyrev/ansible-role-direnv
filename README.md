@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/kostyrev/ansible-role-direnv.svg?branch=master)](https://travis-ci.org/kostyrev/ansible-role-direnv)
 
-Installs direnv
+Installs [direnv](https://github.com/direnv/direnv)
 
 Requirements
 ------------

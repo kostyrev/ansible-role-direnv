@@ -10,7 +10,7 @@ galaxy_info:
     - 25
   - name: Ubuntu
     versions:
-    - 16.04
+    - xenial
   categories:
     - development
     - system

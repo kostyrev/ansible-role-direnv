@@ -1,0 +1,13 @@
+---
+# tasks file for kostyrev.direnv
+- name: install direnv package
+  package:
+    name: direnv
+    state: present
+
+- name: install hook
+  become: no
+  lineinfile:
+    state: present
+    dest: ~/.bashrc
+    line: 'eval "$(direnv hook bash)"'

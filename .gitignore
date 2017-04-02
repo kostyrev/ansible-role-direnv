@@ -1,0 +1,6 @@
+.vagrant
+*.py[co]
+build
+
+.molecule
+*.retry

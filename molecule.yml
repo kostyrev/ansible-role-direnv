@@ -1,0 +1,19 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+docker:
+  containers:
+
+    - name: ubuntu-vagrant
+      image: ubuntu
+      image_version: 16.04
+
+    - name: fedora-vagrant
+      image: fedora
+      image_version: 25
+      command: /bin/bash
+
+verifier:
+  name: testinfra
